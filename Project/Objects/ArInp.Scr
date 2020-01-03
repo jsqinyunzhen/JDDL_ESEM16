@@ -1,0 +1,10 @@
+--create .\Objects\esem16_sdk.lib
+.\objects\startup_esem16.o
+.\objects\main.o
+.\objects\common.o
+.\objects\init.o
+.\objects\intrrupt.o
+.\objects\task.o
+.\objects\emu.o
+.\objects\iicm.o
+.\objects\uart.o

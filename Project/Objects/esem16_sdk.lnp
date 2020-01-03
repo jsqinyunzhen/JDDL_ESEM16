@@ -1,0 +1,20 @@
+--cpu Cortex-M0
+".\objects\startup_esem16.o"
+".\objects\main.o"
+".\objects\common.o"
+".\objects\init.o"
+".\objects\intrrupt.o"
+".\objects\task.o"
+".\objects\emu.o"
+".\objects\uart.o"
+".\objects\esem16_flashiap.o"
+".\objects\system_esem16.o"
+".\objects\esem16_em.o"
+".\objects\esem16_scu.o"
+".\objects\esem16_gpio.o"
+".\objects\esem16_scs.o"
+".\objects\esem16_wdt.o"
+--strict --scatter ".\Objects\esem16_sdk.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\esem16_sdk.map" -o .\Objects\esem16_sdk.axf

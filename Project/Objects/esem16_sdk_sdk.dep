@@ -1,0 +1,241 @@
+Dependencies for Project 'esem16_sdk', Target 'sdk': (DO NOT MODIFY !)
+F (.\startup_ESEM16.s)(0x5DC234D5)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR--pd "__UVISION_VERSION SETA 518"--list .\listings\startup_esem16.lst --xref -o .\objects\startup_esem16.o --depend .\objects\startup_esem16.d)
+F (..\User\main.c)(0x5DD65E26)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\includes.h)(0x5DC3F172)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\Inc\HR\ESEM16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+I (..\User\macrodef.h)(0x5DEEEC22)
+I (..\User\variable.h)(0x5DD64A05)
+I (..\User\common.h)(0x5DCA2915)
+I (..\User\inc\emu.h)(0x5DE9F1D5)
+I (..\User\inc\uart.h)(0x5DC26327)
+I (..\User\task.h)(0x5DC2353C)
+I (..\User\inc\iicm.h)(0x5DC23471)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+F (..\User\common.c)(0x5DD495F1)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\common.o --omf_browse .\objects\common.crf --depend .\objects\common.d)
+I (..\User\includes.h)(0x5DC3F172)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\Inc\HR\ESEM16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+I (..\User\macrodef.h)(0x5DEEEC22)
+I (..\User\variable.h)(0x5DD64A05)
+I (..\User\common.h)(0x5DCA2915)
+I (..\User\inc\emu.h)(0x5DE9F1D5)
+I (..\User\inc\uart.h)(0x5DC26327)
+I (..\User\task.h)(0x5DC2353C)
+I (..\User\inc\iicm.h)(0x5DC23471)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+F (..\User\src\init.c)(0x5DD4AC06)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (..\User\includes.h)(0x5DC3F172)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\Inc\HR\ESEM16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+I (..\User\macrodef.h)(0x5DEEEC22)
+I (..\User\variable.h)(0x5DD64A05)
+I (..\User\common.h)(0x5DCA2915)
+I (..\User\inc\emu.h)(0x5DE9F1D5)
+I (..\User\inc\uart.h)(0x5DC26327)
+I (..\User\task.h)(0x5DC2353C)
+I (..\User\inc\iicm.h)(0x5DC23471)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+F (..\User\intrrupt.c)(0x5DC8D2B9)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\intrrupt.o --omf_browse .\objects\intrrupt.crf --depend .\objects\intrrupt.d)
+I (..\User\includes.h)(0x5DC3F172)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\Inc\HR\ESEM16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+I (..\User\macrodef.h)(0x5DEEEC22)
+I (..\User\variable.h)(0x5DD64A05)
+I (..\User\common.h)(0x5DCA2915)
+I (..\User\inc\emu.h)(0x5DE9F1D5)
+I (..\User\inc\uart.h)(0x5DC26327)
+I (..\User\task.h)(0x5DC2353C)
+I (..\User\inc\iicm.h)(0x5DC23471)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+F (..\User\task.c)(0x5DCB93A6)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\task.o --omf_browse .\objects\task.crf --depend .\objects\task.d)
+I (..\User\includes.h)(0x5DC3F172)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\Inc\HR\ESEM16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+I (..\User\macrodef.h)(0x5DEEEC22)
+I (..\User\variable.h)(0x5DD64A05)
+I (..\User\common.h)(0x5DCA2915)
+I (..\User\inc\emu.h)(0x5DE9F1D5)
+I (..\User\inc\uart.h)(0x5DC26327)
+I (..\User\task.h)(0x5DC2353C)
+I (..\User\inc\iicm.h)(0x5DC23471)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+F (..\User\src\emu.c)(0x5DDE128D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\emu.o --omf_browse .\objects\emu.crf --depend .\objects\emu.d)
+I (..\User\includes.h)(0x5DC3F172)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\Inc\HR\ESEM16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+I (..\User\macrodef.h)(0x5DEEEC22)
+I (..\User\variable.h)(0x5DD64A05)
+I (..\User\common.h)(0x5DCA2915)
+I (..\User\inc\emu.h)(0x5DE9F1D5)
+I (..\User\inc\uart.h)(0x5DC26327)
+I (..\User\task.h)(0x5DC2353C)
+I (..\User\inc\iicm.h)(0x5DC23471)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+F (..\User\src\uart.c)(0x5DE9F23A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\User\includes.h)(0x5DC3F172)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\Inc\HR\ESEM16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+I (..\User\macrodef.h)(0x5DEEEC22)
+I (..\User\variable.h)(0x5DD64A05)
+I (..\User\common.h)(0x5DCA2915)
+I (..\User\inc\emu.h)(0x5DE9F1D5)
+I (..\User\inc\uart.h)(0x5DC26327)
+I (..\User\task.h)(0x5DC2353C)
+I (..\User\inc\iicm.h)(0x5DC23471)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+F (..\User\includes.h)(0x5DC3F172)()
+F (..\User\typedef.h)(0x5DC909AD)()
+F (..\User\macrodef.h)(0x5DEEEC22)()
+F (..\User\inc\uart.h)(0x5DC26327)()
+F (..\User\variable.h)(0x5DD64A05)()
+F (..\DOC\หตร๗.txt)(0x585A275A)()
+F (..\User\lib\esem16_flashiap.c)(0x5DC2342D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\esem16_flashiap.o --omf_browse .\objects\esem16_flashiap.crf --depend .\objects\esem16_flashiap.d)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (C:\Keil_v5\ARM\Inc\HR\esem16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+F (..\User\lib\system_esem16.c)(0x5DD6483D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\system_esem16.o --omf_browse .\objects\system_esem16.crf --depend .\objects\system_esem16.d)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (C:\Keil_v5\ARM\Inc\HR\esem16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\typedef.h)(0x5DC909AD)
+I (..\User\includes.h)(0x5DC3F172)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (..\User\macrodef.h)(0x5DEEEC22)
+I (..\User\variable.h)(0x5DD64A05)
+I (..\User\common.h)(0x5DCA2915)
+I (..\User\inc\emu.h)(0x5DE9F1D5)
+I (..\User\inc\uart.h)(0x5DC26327)
+I (..\User\task.h)(0x5DC2353C)
+I (..\User\inc\iicm.h)(0x5DC23471)
+I (..\User\lib\esem16_flashiap.h)(0x5DC23450)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+F (..\User\lib\esem16_em.c)(0x5DC2341A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\esem16_em.o --omf_browse .\objects\esem16_em.crf --depend .\objects\esem16_em.d)
+I (..\User\lib\esem16_em.h)(0x5DC23422)
+I (C:\Keil_v5\ARM\Inc\HR\esem16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+F (..\User\lib\esem16_scu.c)(0x5DC23458)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\esem16_scu.o --omf_browse .\objects\esem16_scu.crf --depend .\objects\esem16_scu.d)
+I (..\User\lib\esem16_scu.h)(0x5DC2345F)
+I (C:\Keil_v5\ARM\Inc\HR\esem16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+F (..\User\lib\esem16_gpio.c)(0x5DC23450)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\esem16_gpio.o --omf_browse .\objects\esem16_gpio.crf --depend .\objects\esem16_gpio.d)
+I (..\User\lib\esem16_gpio.h)(0x5DC23450)
+I (C:\Keil_v5\ARM\Inc\HR\esem16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+F (..\User\lib\esem16_scs.c)(0x5DC23450)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\esem16_scs.o --omf_browse .\objects\esem16_scs.crf --depend .\objects\esem16_scs.d)
+I (..\User\lib\esem16_scs.h)(0x5DC2344E)
+I (C:\Keil_v5\ARM\Inc\HR\esem16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
+F (..\User\lib\esem16_wdt.c)(0x5DC4BA2D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\User\inc -I ..\User -I ..\CMSIS -I ..\User\lib-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\HR-D__UVISION_VERSION="518"-o .\objects\esem16_wdt.o --omf_browse .\objects\esem16_wdt.crf --depend .\objects\esem16_wdt.d)
+I (..\User\lib\esem16_wdt.h)(0x5DC4BA33)
+I (C:\Keil_v5\ARM\Inc\HR\esem16.h)(0x5DA81DD8)
+I (..\CMSIS\core_cm0.h)(0x4F72A99A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\CMSIS\core_cmInstr.h)(0x52D79036)
+I (..\CMSIS\core_cmFunc.h)(0x52D79036)
+I (..\User\lib\system_esem16.h)(0x5DC266AF)
+I (..\User\typedef.h)(0x5DC909AD)
